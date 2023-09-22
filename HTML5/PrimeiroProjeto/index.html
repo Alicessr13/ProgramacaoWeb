@@ -1,0 +1,130 @@
+<!--Index é o nome padrão para a página principal de um site, por padrão e o primeiro a ser carregado automaticamente-->
+<!doctype html>
+
+<html>
+
+    <head>
+        <title>Pagina principal</title>
+        <meta charset="utf-8">
+    </head>
+
+    <body>
+
+        <a href="">Home</a> <!--se não colocar nada carrega a propria página-->
+        /
+        <a href="contato.html">Clique aqui</a> <!-- href = referencia de hyper link -->
+        <br>
+        <!--para abrir um link externo precisa ser o link completo-->
+        <a href="https://www.letras.mus.br/melanie-martinez/void/">Clique aqui também</a>
+
+        <h2>Página principal</h2>
+        <p>Pipe down with the noise, I cannot bear my sorrow
+            I hate who I was before
+            I fear I won't live to see the day tomorrow
+            Someone tell me if this is Hell</p>
+
+        <p>I gotta escape that void
+            There is no other choice, yeah
+            Tryna turn down the voices
+            The void ate me</p>
+
+        <h2>Produtos</h2>
+
+        <table border="2" width="100%"> <!--para criar tabelas, border = borda (em pixels)-->
+            <tr> <!--linha da tabela-->
+                <!--td = dados das tabelas em colunas-->
+                <!--td table data th table header-->
+                <th>Código</th>
+                <th>Produto</th>
+                <th>Preço</th>
+            </tr>
+
+            <tr>
+                <td>001</td>
+                <td>Notebook</td>
+                <td>R$ 3000,99</td>
+            </tr>
+
+            <tr>
+                <td>002</td>
+                <td>Celular</td>
+                <td>R$ 1500,99</td>
+            </tr>
+
+            <tr>
+                <td rowspan="2">Desconto</td> <!--extensão da linha, quantas linhas ocupa-->
+                <td colspan="2">cupom1 - R$10</td> <!-- colspan extensão da coluna, quantas colunas ocupa-->
+            </tr>
+
+            <tr>
+                <td colspan="2">cupom2 -R$12</td>
+            </tr>
+
+            <tr>
+                <td>Total:</td>
+                <td colspan="2">R$ 4.500,98</td>
+            </tr>
+        </table>
+
+        <img src="imagens/kuromi.jpg" width="30%"> <!--% espaço ocupado em relação a pagina-->
+
+        <h2>Login</h2>
+
+        <form action=""> <!--formularios-->
+
+            Login: <br>
+            <input type="text" name="usuário"> <br>
+
+            Senha: <br>
+            <input type="password" name="senha"> <br>
+
+            <input type="submit" value="Logar"> <!--ou button-->
+
+        </form>
+
+        <h2>Cadastre-se</h2>
+        
+        <form action="">
+            Login: <br>
+            <input type="text" name="usuário"> <br>
+
+            <br>
+
+            Sexo: <br>
+            <input type="radio" name="sexo" value="M"> Masculino <br> <!--colocar os 2 com mesmo nome faz só ser possivel escolher 1-->
+            <input type="radio" name="sexo" value="F"> Feminino <br>
+
+            <br>
+
+            Interesses: <br>
+            <input type="checkbox" name=""> Futebol <br>
+            <input type="checkbox" name=""> Video Game <br>
+            <input type="checkbox" name=""> Filmes <br>
+
+            <br>
+            Estado <br>
+            <select name="estado" id="">
+            <option value="sp">SP</option>
+            <option value="mg">MG</option>
+            <option value="sc">SC</option>
+            </select>
+            
+            <br>
+            <br>
+            Observaçõe <br>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+
+            <br>
+            <input type="submit" value="Cadastrar"> 
+        </form>
+
+
+        <h2>Caracteres especiais</h2>
+        <!--para usar palavras reservadas da linguagem pode ser usado entities(pesquisar no google)-->
+        &lt;p&gt;  <br>
+
+        home &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- quem somos - contato
+
+    </body>
+
+</html>

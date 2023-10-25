@@ -1,0 +1,19 @@
+body{
+    background-image: url(imagens/bc6c96aefada347da9b11decb2cda6b6.jpg);
+    
+}
+
+.inicio{
+    font-family: akira; 
+    padding-left: 10px;
+    background:rgb(218, 135, 198);    
+}
+
+@font-face {
+    font-family: akira;
+    src: url(imagens/akira_expanded/Akira\ Expanded\ Demo.otf)
+}
+
+.espaco-pequeno {
+    padding-left: 10px; /* Ou qualquer valor desejado para o espaçamento interno à esquerda */
+}

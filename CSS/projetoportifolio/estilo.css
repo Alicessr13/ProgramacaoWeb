@@ -6,7 +6,17 @@ body{
 .inicio{
     font-family: akira; 
     padding-left: 10px;
-    background:rgb(218, 135, 198);    
+    background:rgb(218, 135, 198); 
+    width: 990px;    
+    margin-bottom: 5px; 
+}
+
+.descricao{
+    font-family: cool;
+    padding-left: 10px;
+    background-color: rgb(243, 178, 211);
+    width: 990px;    
+    
 }
 
 @font-face {
@@ -16,4 +26,14 @@ body{
 
 .espaco-pequeno {
     padding-left: 10px; /* Ou qualquer valor desejado para o espaçamento interno à esquerda */
+}
+
+@font-face {
+    font-family: cool;
+    src: url(imagens/coolvetica/coolvetica\ rg.otf);
+}
+
+@font-face {
+    font-family: cool2;
+    src: url(imagens/coolvetica/coolvetica\ compressed\ hv.otf);
 }

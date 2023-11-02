@@ -11,6 +11,7 @@
 </head>
 
 <body>
+    <?php include 'cabecalho.html'?>
 
     <div class="descricao">
         <span style="font-size: 22px;"><strong>Sobre Alice</strong></span>

@@ -1,22 +1,17 @@
-
 <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Campanhas Publicitárias</title>
+        <link rel="stylesheet" href="estilo.css">
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <body>
+        <?php
+        include 'cabecalho.html';
+        ?>
 
-
-    <link rel="stylesheet" href="estilo.css">
-</head>
-
-<body>
-    <?php
-    include 'cabecalho.html';
-    ?>
-
-    <div class="descricao">
-        <span style="font-size: 22px;"><strong>Sobre Alice</strong></span>
+        <div class="descricao">
+        <span style="font-size: 22px;"><strong>Campanhas</strong></span>
         <p>
             I don't mind
             Letting you down easy, but just give it time
@@ -24,6 +19,9 @@
             You're not the big fish in the pond no more
             You are what they're feeding on
         </p>
+        <div>
+            <img src="imagens/imagem1.jpeg" class="fotos">
+        </div>
         <p>
             So what are you gonna do
             When the world don't orbit around you?
@@ -41,6 +39,10 @@
             You see, it's easy to ignore trouble
             When you're living in a bubble
         </p>
+
+        <div>
+            <img src="imagens/imagem2.jpeg" class="fotos">
+        </div>
 
         <p>
             Don't go crying to your mama
@@ -63,6 +65,10 @@
             Ain't it good (ain't it good)
             Being all alone?
 
+            <div>
+            <img src="imagens/imagem3.jpeg" class="fotos">
+            </div>
+
             Don't go crying to your mama (not to your motha)
             'Cause you're on your own in the real world (don't go crying)
             Don't go crying to your mama (to your mama)
@@ -76,10 +82,10 @@
         </p> 
     </div>
 
-    <?php
-    include 'rodape.html';
-    ?>
 
-</body>
+        <?php
+        include 'rodape.html';
+        ?>
+    </body>
 
 </html>

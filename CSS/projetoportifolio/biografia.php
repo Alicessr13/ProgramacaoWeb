@@ -1,22 +1,18 @@
 
 <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Biografia</title>
+        <link rel="stylesheet" href="estilo.css">
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <body>
+        <?php
+        include 'cabecalho.html';
+        ?>
 
-
-    <link rel="stylesheet" href="estilo.css">
-</head>
-
-<body>
-    <?php
-    include 'cabecalho.html';
-    ?>
-
-    <div class="descricao">
-        <span style="font-size: 22px;"><strong>Sobre Alice</strong></span>
+<div class="descricao">
+        <span style="font-size: 22px;"><strong>Biografia</strong></span>
         <p>
             I don't mind
             Letting you down easy, but just give it time
@@ -76,10 +72,9 @@
         </p> 
     </div>
 
-    <?php
-    include 'rodape.html';
-    ?>
-
-</body>
+        <?php
+        include 'rodape.html';
+        ?>
+    </body>
 
 </html>

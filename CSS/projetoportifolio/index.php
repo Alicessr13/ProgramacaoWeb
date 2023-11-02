@@ -11,6 +11,9 @@
 </head>
 
 <body>
+    <?php
+    include 'cabecalho.html';
+    ?>
 
     <div class="descricao">
         <span style="font-size: 22px;"><strong>Sobre Alice</strong></span>
@@ -71,6 +74,10 @@
             'Cause you're on your own in the real world (this is the real world, this is the real world)
         </p> 
     </div>
+
+    <?php
+    include 'rodape.html';
+    ?>
 
 </body>
 

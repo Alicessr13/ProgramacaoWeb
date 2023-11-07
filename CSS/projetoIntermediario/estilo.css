@@ -1,0 +1,33 @@
+.conteudo{
+    border: 1px solid red;
+    /*
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;*/
+
+    /*padding: 20px 20px 20px 20px;*/
+
+    padding: 20px; /*espaçamento interno*/
+
+    margin: 30px; /*espaçamento externo*/
+
+    width: 150px;
+}
+
+.conteudo2{ /*dois elementos com margen diferente a margem maior é utilizada*/
+    border: 1px solid red;
+    margin: 50px;
+    width: 150px;
+}
+
+#noticia{
+    background: rgb(212, 57, 57);
+    padding: 10px;
+    border: 1px solid black;
+}
+
+h2{
+    border:1px solid black;
+    margin: 0px;
+}

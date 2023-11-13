@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Elementos flutuantes</title>
+    <meta charset="utf-8">
+
+    <style type="text/css">
+        .conteudo {
+            background: red;
+            border: 1px solid gray;
+            width: 200px;
+            height: 200px;
+            margin: 10px;
+            float: left;
+            /*left, right, none*/
+        }
+
+        .conteudo1 {
+            background: blueviolet;
+            border: 1px solid gray;
+            width: 100px;
+            height: 100px;
+        }
+
+        .conteudo0 {
+            background: blue;
+            border: 1px solid gray;
+            width: 200px;
+            height: 200px;
+        }
+
+        .clear {
+            clear: left;
+            /*left, right, both e none*/
+        }
+
+        #principal{
+            border: 1px solid blue;
+
+            background: pink;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="principal">
+        <div class="conteudo">
+            Conteudo 1
+        </div>
+
+        <div class="conteudo">
+            Conteudo 2
+        </div>
+
+        <div class="conteudo">
+            Conteudo 3
+        </div>
+
+        <div class="conteudo1">
+            Conteudo 0
+        </div>
+
+        <div class="clear"></div>
+    </div>
+    <p class="clear">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet nulla eu enim elementum vehicula sit amet
+        ultrices massa. Aliquam erat volutpat. Fusce volutpat iaculis odio, at congue arcu vulputate ut. Sed eros nisl,
+        aliquet vitae scelerisque sit amet, vestibulum ut ex. Praesent sed ex est. Nam lacus magna, consequat sit amet
+        justo nec, scelerisque vehicula sem. Quisque ut congue ante. Cras dapibus laoreet placerat. In luctus
+        pellentesque placerat. Integer laoreet felis vel urna ornare, at porta orci mattis. Nam pulvinar felis mi.
+        Praesent at nisi libero. Vestibulum vestibulum pharetra ante vitae imperdiet. Morbi massa arcu, convallis ac
+        dignissim eu, euismod sed risus. Morbi ut mauris a metus rhoncus faucibus in a odio. Sed non vehicula lorem, a
+        aliquam justo.
+    </p>
+
+</body>
+
+</html>

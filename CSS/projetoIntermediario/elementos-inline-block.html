@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <style type="text/css">
+
+        .borda{
+            border: 1px solid red;
+            
+            /*inline = ocupa o espaço do texto, elementos um do lado do outro*/
+            /*block = ocupá o espaço inteiro da página, elementos 1 embaixo do outro*/
+            /*display = muda o elemento, faz um elemento block virar inline e vice versa*/
+            /*inline-block, pula de linha quando não tem mais espaço */
+        }
+
+        .borda2{
+            border: 1px solid red;
+            display: inline-block;
+            /*inline = ocupa o espaço do texto, elementos um do lado do outro*/
+            /*block = ocupá o espaço inteiro da página, elementos 1 embaixo do outro*/
+            /*display = muda o elemento, faz um elemento block virar inline e vice versa*/
+            /*inline-block, pula de linha quando não tem mais espaço */
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1 class="borda">Bloco 1</h1>
+    <h1 class="borda">Bloco 1</h1>
+
+    <span class="borda">
+        inline 1
+    </span>
+    <span class="borda">
+        inline 1
+    </span>
+    <br>
+    <br>
+    <span class="borda2">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a ipsum non purus aliquet ultrices. Nunc lobortis felis quis elementum aliquet. Fusce tempor pharetra tellus vel blandit. Phasellus placerat neque et dui interdum porttitor. Duis eget libero luctus, aliquam quam nec, fringilla nibh. 
+    </span>
+    <span class="borda2">teste</span>
+
+</body>
+
+</html>

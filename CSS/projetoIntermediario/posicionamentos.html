@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <style type="text/css">
+        body {
+            background-color: rgb(253, 166, 247);
+        }
+
+        #container {
+            background: rgb(255, 0, 106);
+            width: 800px;
+            margin: 10px auto;
+            /*10px em cima e em baixo e automatico dos lado*/
+            /*contraliza com o tamanho da tela*/
+            padding: 10px;
+        }
+
+        h1{
+            position: static; /*posição padrão*/
+        }
+
+        p{
+            width: 300px;
+        }
+
+        .relative{
+            border: 1px solid palevioletred;
+            position: relative;
+            /*top, right, bottom e left são usadas para movimentar o paragrafo*/
+            top: -165px; /*alinhamento baseado na posição padrão, ou seja em top ele desce 20px*/
+            left: 400px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <h1>Posicionamento</h1>
+        <p>
+            P1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque posuere, dolor pharetra tristique mollis,
+            est sapien dignissim dui, vel tristique sapien enim sit amet metus. Proin eros est, placerat id arcu a,
+            sodales lobortis felis. Suspendisse congue tortor justo, eu feugiat velit facilisis in. Sed sit amet
+            interdum dui.
+        </p>
+
+        <p class="relative">
+            P2 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque posuere, dolor pharetra tristique mollis,
+            est sapien dignissim dui, vel tristique sapien enim sit amet metus. Proin eros est, placerat id arcu a,
+            sodales lobortis felis. Suspendisse congue tortor justo, eu feugiat velit facilisis in. Sed sit amet
+            interdum dui.
+        </p>
+
+        <p>
+            P3 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque posuere, dolor pharetra tristique mollis,
+            est sapien dignissim dui, vel tristique sapien enim sit amet metus. Proin eros est, placerat id arcu a,
+            sodales lobortis felis. Suspendisse congue tortor justo, eu feugiat velit facilisis in. Sed sit amet
+            interdum dui.
+        </p>
+
+    </div>
+</body>
+
+</html>

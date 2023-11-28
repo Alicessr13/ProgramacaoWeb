@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <style type="text/css">
+
+            .conteudo1{
+                border: 1px solid rgb(255, 0, 0);
+                background-color: rgb(235, 88, 125);
+                width: 200px;
+                height: 200px;
+                position: absolute;
+                z-index: 1; /*quando maior o numero mais na frente ele aparece*/
+            }
+
+            .conteudo2{
+                border: 1px solid rgb(255, 0, 0);
+                background-color: rgb(88, 213, 235);
+                width: 200px;
+                height: 200px;
+                position: absolute;
+                top:80px;
+                left: 80px;
+                z-index: 0; /*se for o mesmo número segue a ordem do documento*/
+            }
+            .conteudo3{
+                border: 1px solid rgb(255, 0, 0);
+                background-color: rgb(93, 235, 88);
+                width: 200px;
+                height: 200px;
+                position: absolute;
+                top:160px;
+                left: 160px;
+                z-index: 0; 
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="conteudo1">
+            Conteudo 1
+        </div>
+        
+        <div class="conteudo2">
+            Conteudo 2
+        </div>
+
+        <div class="conteudo3">
+            Conteudo 3
+        </div>
+    </body>
+</html>

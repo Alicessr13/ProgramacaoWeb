@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.cabecalho{
+    padding: 20px;
+    background-color: red;
+}
+
+.titulo{
+    font-family: Lemon;
+    font-size: 40px;
+}
+
+a:link,a:visited,a:hover{
+    font-family: lemon2;
+    font-size: 15px;
+    padding-left: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+@font-face {
+    font-family: Lemon;
+    src: url(imagens/lemon_milk/LEMONMILK-Bold.otf);
+}
+
+@font-face {
+    font-family: lemon2;
+    src: url(imagens/lemon_milk/LEMONMILK-Regular.otf);
+}

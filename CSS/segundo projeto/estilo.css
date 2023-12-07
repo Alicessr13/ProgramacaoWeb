@@ -1,26 +1,74 @@
-body{
+body {
     margin: 0;
     padding: 0;
     height: 100%;
+    background-color: rgb(248, 236, 236);
 }
 
-.cabecalho{
-    padding: 20px;
+.cabecalho {
+    padding: 40px;
     background-color: red;
 }
 
-.titulo{
+.titulo {
     font-family: Lemon;
     font-size: 40px;
 }
 
-a:link,a:visited,a:hover{
+a:link,
+a:visited{
     font-family: lemon2;
     font-size: 15px;
     padding-left: 20px;
+    padding-right: 20px;
     text-decoration: none;
     color: white;
 }
+a:hover{
+    color: red;
+    background-color: white;
+    
+}
+
+.postagem {
+    float: left;
+    margin: 30px;
+    padding: 20px;
+    width: 800px;
+    position: relative;
+    left: 250px;
+    background-color: white;
+}
+
+.dolado {
+    float: left;
+    position: relative;
+    left: 220px;
+    margin: 30px;
+    padding: 20px;
+    width: 350px;
+    background-color: white;
+    height: 150px;
+}
+
+.abaixo {
+    float: left;
+    position: relative;
+    top: 200px;
+    left: -230px;
+    margin: 30px;
+    padding: 20px;
+    width: 350px;
+    background-color: white;
+}
+
+.titulodolado{
+    background-color: rgb(182, 169, 169);
+    font-family: cool;
+    font-size: 20px;
+    padding: 5px;
+}
+
 
 @font-face {
     font-family: Lemon;
@@ -30,4 +78,9 @@ a:link,a:visited,a:hover{
 @font-face {
     font-family: lemon2;
     src: url(imagens/lemon_milk/LEMONMILK-Regular.otf);
+}
+
+@font-face {
+    font-family: cool;
+    src: url(imagens/coolvetica/coolvetica\ rg.otf);
 }

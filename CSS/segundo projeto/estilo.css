@@ -22,6 +22,7 @@ a{
     text-decoration: none;
 }
 
+
 a:link,
 a:visited{
     font-family: lemon2;
@@ -35,62 +36,44 @@ a:hover{
     background-color: white;
 }
 
-.postagem {
-    float: left;
-    margin: 30px;
-    padding: 20px;
-    width: 800px;
-    position: relative;
-    left: 250px;
-    background-color: white;
+#container{
+    width: 920px;
+    margin: 0 auto;
 }
 
-.dolado {
-    float: left;
-    position: relative;
-    left: 220px;
-    margin: 30px;
-    padding: 20px;
-    width: 350px;
-    background-color: white;
-    height: 152px;
+#area-postagens, #area-lateral{
+    background-color: rgb(55, 136, 44);
 }
 
-.abaixo {
+#area-postagens{
+    width: 660px;
     float: left;
-    position: relative;
-    top: 200px;
-    left: -230px;
-    margin: 30px;
-    padding: 20px;
-    width: 350px;
-    height: 152px;
-    background-color: white;
 }
 
-.titulodolado{
-    background-color: rgb(182, 169, 169);
+#area-lateral{
+    width: 220px;
+    float: right;
+}
+
+#rodape{
+    background: rgb(165, 161, 161);
+    clear: both;
+    text-align: center;
+    padding: 15px;
     font-family: cool;
-    font-size: 20px;
-    padding: 5px;
 }
 
-.conteudolado{
-    font-family: cool2;
-    font-size: 15px;
+.postagem{
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: white;
 }
 
-.titulopost{
-    font-family: cool;
-    font-size: 30px;
-    padding: 0px;
-    color: red;
+img{
+    width: 500px;
+    height: 500px;
 }
 
-.conteudopost{
-    font-family: cool2;
-    font-size: 17px;
-}
 
 
 

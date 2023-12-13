@@ -23,26 +23,37 @@ a{
 }
 
 
-a:link,
-a:visited{
+.cabecalho a:link,
+.cabecalho a:visited{
     font-family: lemon2;
     font-size: 15px;
     padding-left: 20px;
     padding-right: 20px;
     color: white;
 }
-a:hover{
+.cabecalho a:hover{
     color: red;
     background-color: white;
 }
 
+#container a:link,
+#container a:visited{
+    font-family: cool;
+    color: red;
+}
+#container a:hover{
+    text-decoration: underline;
+}
+
+
 #container{
     width: 920px;
     margin: 0 auto;
+    padding: 15px;
 }
 
 #area-postagens, #area-lateral{
-    background-color: rgb(55, 136, 44);
+
 }
 
 #area-postagens{
@@ -50,13 +61,8 @@ a:hover{
     float: left;
 }
 
-#area-lateral{
-    width: 220px;
-    float: right;
-}
-
 #rodape{
-    background: rgb(165, 161, 161);
+    background: rgb(219, 200, 200);
     clear: both;
     text-align: center;
     padding: 15px;
@@ -70,8 +76,47 @@ a:hover{
 }
 
 img{
-    width: 500px;
-    height: 500px;
+    width: 600px;
+    height: 600px;
+}
+
+.titulopost{
+    color: red;
+    font-family: cool;
+    font-size: 2.0em;
+}
+
+.conteudopost{
+    font-family: cool2;
+    font-size: 1.0em;
+    padding-top: 10px;
+}
+
+
+#area-lateral{
+    width: 240px;
+    float: right;
+}
+
+.dolado{
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.titulodolado{
+    color: red;
+    font-family: cool;
+    font-size: 1.5em;
+    background-color:  rgb(219, 200, 200);
+    padding: 5px;
+}
+
+.conteudolado{
+    font-family: cool2;
+    font-size: 1.0em;
+    padding-top: 10px;
+    
 }
 
 

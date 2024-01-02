@@ -1,0 +1,37 @@
+*{ /*seletor universal, seleciona todos os elementos da pagina*/
+    border: 1px solid red;
+}
+
+h2{ /*seletor de texto*/
+    color: blue;
+}
+
+.verde{ /*seleciona qualquer elemento com a classe verde*/
+    color: green;
+}
+
+p.verde{ /*seleciona o elemento p com a classe verde*/
+    color: green;
+}
+
+#cabecalho{ /*seleciona o elemento que tem o atributo id especificado*/
+    border: 3px solid blue;
+}
+
+li > a{ /* seleciona qualquer elemento a que são filhos direto do elemento li (outros a na pgina não seleciona, se houver outros elementos entre eles não seleciona)*/
+    color: cyan;
+    text-decoration: none;
+}
+
+div a{ /*seleciona qualquer elemento a dentro de p mesmo se houver outros elementos entre eles*/
+    color: yellow;
+    text-decoration: none;
+}
+
+h1+p{ /*seleciona o primeiro elemento p depois de um elemento h1 (mas não outros p)*/
+    color: purple;
+}
+
+h3~p{ /* igual o + só que não precisa ser direto, seleciona os proximos também*/
+    color: pink;
+}

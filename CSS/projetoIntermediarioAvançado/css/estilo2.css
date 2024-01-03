@@ -1,0 +1,30 @@
+body {
+    /*os elementos dentro de body herdam essa formatação*/
+    color: red;
+    border: 1px solid blue;
+    /*borda e backgroud nao são herdados*/
+    background: pink;
+}
+
+
+p {
+    color: blue !important;
+}
+
+p {
+    color: green;
+}
+/*em caso de seletores iguais o aplicado será o ultimo (ao usar !important ele igonora a regra e aplica o important*/
+
+/*um seletor mais especifico tem prioridade e será aplicado*/
+*{
+    color: green;
+}
+
+h2{ /*h2 e mais especifico que * pois seleciona somente 1*/
+    color: purple;
+}
+
+h2.yellow{ /*esse h2 e mais especifico que o anterior*/
+    color: yellow;
+}

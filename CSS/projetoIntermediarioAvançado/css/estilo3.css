@@ -27,9 +27,18 @@ ul a {
     text-indent: 40px;
     line-height: 40px;
     background: url(../imagens/menu-rosa.png) no-repeat left bottom;
+    background-color: rgb(238, 128, 248);
 }
 
 a:hover{
     background-position: right bottom;
     color: white;
+    background-color: rgb(226, 43, 211);
+}
+
+#home #navegacao .home a,
+#sobre #navegacao .sobre a{
+    background-position: right bottom;
+    color: white;
+    background-color: rgb(226, 43, 211);
 }

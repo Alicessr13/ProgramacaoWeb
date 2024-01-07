@@ -30,14 +30,16 @@ ul a {
     background-color: rgb(238, 128, 248);
 }
 
+/*ao passar o mouse em cima*/
 a:hover{
-    background-position: right bottom;
+    background-position: right bottom; /*coloca a imagem pro lado*/
     color: white;
     background-color: rgb(226, 43, 211);
 }
 
+/*deixar marcado a pagina que esta*/
 #home #navegacao .home a,
-#sobre #navegacao .sobre a{
+#sobre #navegacao .sobre a{ /*no id home quando tiver o id navegação dentro e a classe home dentro no elemento a*/
     background-position: right bottom;
     color: white;
     background-color: rgb(226, 43, 211);

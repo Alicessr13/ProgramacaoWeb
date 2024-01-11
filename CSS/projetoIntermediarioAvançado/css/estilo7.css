@@ -1,0 +1,90 @@
+body{
+    font-family: lemon;    
+    background: #f3eded;
+}
+@font-face {
+    font-family: lemon;
+    src: url(../imagens/Lemon/Lemon-Regular.ttf);
+}
+
+#container{
+    width: 60%; 
+    margin: 0 auto;
+    background: #fff;
+    min-width: 890px;
+    max-width: 1000px;
+}
+
+#marca{
+    height: 100px;
+    width: 100%;
+    background:#7143f0;
+    text-align: center;
+    line-height: 100px;
+}
+
+#conteudo{
+    width: 85%;
+    float: right;
+}
+
+#conteudo1{
+    border: 1px solid red;
+    width: 63%;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#conteudo2{
+    border: 1px solid red;
+    width: 31%;
+    float: right;
+    background: #bca8f3;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+#navegacao{
+    width: 14%;
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #bca8f3;
+}
+
+#rodape{
+    clear: both;
+    background: #bca8f3;
+    padding: 5px;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 0 2em;
+    line-height: 2em;
+}
+
+#navegacao ul a:hover{
+    color: black;
+    background: #8865e9;
+    width: 60px;
+    padding-left: 10px;
+}
+
+#navegacao ul #atual a{
+    color: black;
+    background: #8865e9;
+    width: 60px;
+    padding-left: 10px;
+}
+

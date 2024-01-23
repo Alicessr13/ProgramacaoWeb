@@ -1,0 +1,43 @@
+body{
+    font-family: lemon;
+}
+
+@font-face {
+    font-family: lemon;
+    src: url(../imagens/Lemon/Lemon-Regular.ttf);
+}
+
+fieldset{
+    padding: 1em;
+    border: 1px solid #ccc;
+    background: #f8f8f8;
+    margin: 1em 0;
+}
+
+legend{
+    font-weight: bold;
+}
+
+label{
+    display: block;
+    cursor: pointer;
+}
+
+input[type=text]{ /*somente input com os atributos type será selecionado 
+    esse metodo é novo e não funciona bem em navegadores antigos melhor usar classe
+    */
+    width: 20em;
+}
+
+textarea{
+    width: 20em; /*ou %*/
+    height: 10em;
+}
+
+input.radio, input.checkbox, input.submit{
+    width: auto;
+}
+
+.radio{
+    margin-right: 1em;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="css/estilo9.css" type="text/css">
+</head>
+
+<body>
+    <h2>Estilizando formularios</h2>
+
+    <form action="">
+        <fieldset> <!--agrupa elementos-->
+            <legend>Detalhes de contato</legend> <!--texto em cima da caixa-->
+
+            <div>
+                <label for="nome">Nome:</label> <!--for: associa o label ao id é bom usar para acessibilidade do usuário-->
+                <input type="text" name="nome" id="nome">
+            </div>
+
+            <!--
+                <div>
+                <label>Email: funciona igual o de cima só de outra maneira
+                    <input type="text" name="email" id="email">
+                </label>
+            </div>
+            -->
+            <div>
+                <label for="email">Email:</label> <!--for: associa o label ao id é bom usar para acessibilidade do usuário-->
+                <input type="text" name="email" id="email">
+            </div>
+
+            <div>
+                <label for="url">URL:</label> <!--for: associa o label ao id é bom usar para acessibilidade do usuário-->
+                <input type="text" name="url" id="url">
+            </div>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Comentários</legend>
+
+            <div>
+                <label for="mensagem">Mensagem</label>
+                <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+            </div>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Lembrar de mim</legend>
+            <div>
+                <label for="">
+                    <input type="radio" name="lembrar" id="sim" class="radio">Sim
+                </label>
+            </div>
+
+            <div>
+                <label for="">
+                    <input type="radio" name="lembrar" id="nao" class="radio">Não
+                </label>
+            </div>
+
+        </fieldset>
+
+    </form>
+
+        
+</body>
+
+</html>

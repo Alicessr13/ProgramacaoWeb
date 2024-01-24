@@ -1,0 +1,69 @@
+body{
+    font-family: lemon;
+    background: #643487 url(../imagens/fundo2.jpeg)no-repeat top center;
+    background-size: cover; /* Esta propriedade faz com que a imagem cubra todo o elemento pai (neste caso, o corpo da página) */
+    margin: 0; /* Remove as margens padrão do corpo da página */
+    padding: 0; /* Remove o preenchimento padrão do corpo da página */
+    height: 100vh; /* Garante que o corpo da página tenha pelo menos a altura da tela visível */
+}
+
+@font-face {
+    font-family: lemon;
+    src: url(../imagens/Lemon/Lemon-Regular.ttf);
+}
+
+#container{
+    width: 400px;
+    height: 300px;
+    background-color: rgb(255, 255, 255, 0.1); /*0.1 = transparencia*/
+    border-radius: 10px; /*arredonda a borda*/
+    margin: 0 auto;
+    margin-top: 120px;
+    text-align: center;
+}
+
+#container img{
+    height:120px;
+    width:120px;
+    margin-top: -60px;
+    margin-bottom: 30px;
+}
+
+input{
+    height: 40px;
+    width: 80%;
+    font-size: 18px;
+    margin-bottom: 10px;
+    background-color: rgb(255, 255, 255, 0.3);
+    padding-left: 40px;
+    border: none;
+    background-repeat: no-repeat;
+    background-position: 0px;
+    border-radius: 10px;
+}
+
+input.email{
+    background-image: url(../imagens/icone.png);
+    background-size: contain;
+}
+
+input.senha{
+    background-image: url(../imagens/icone2.png);
+    background-size: 10%;
+    background-position: 2px;
+}
+
+input::placeholder {
+    color: rgb(255, 255, 255, 0.6); /* Substitua #999 pela cor desejada para o placeholder */
+}
+
+input.submit{
+    color: #fff;
+    background-color: #542758;
+    border: 2px solid #31133f;
+    padding: 5px 20px;
+    height: 45px;
+    width: 90%;
+
+    background: linear-gradient(to bottom, #31133f, #643487); /*pode não funcionar em navegadores antigos*/
+}

@@ -5,7 +5,7 @@
 
 @font-face {
   font-family: lemon;
-  src: url(../imagens/Lemon/Lemon-Regular.ttf);
+  src: url(imagens/lemon_milk/LEMONMILK-Regular.otf);
 }
 
 body{
@@ -76,4 +76,45 @@ body.fotos #navegacao a#fotos
   color: #fff;
   background: #de003e;
   cursor: text;
+}
+
+
+/*layout colunas*/
+#conteudo{
+  background: #f5f5f5;
+  margin-top: 60px;
+}
+
+#primario{
+  width: 330px;
+  float: left;
+  background: blue;
+  margin: 0 0 20px 195px;
+}
+
+#secundario{
+  width: 330px;
+  float: left;
+  background: green;
+  margin: 0 0 20px 15px ;
+}
+
+#lateral{
+  width: 180px;
+  float: left;
+  background: pink;
+  margin: 0 0 20px -870px;
+
+}
+
+/*rodape*/
+#container-rodape{
+  background: #294c71;
+  padding: 20px;
+}
+
+#rodape{
+  width: 870px;
+  margin: 0 auto;
+  color: white;
 }

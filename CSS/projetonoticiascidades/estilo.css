@@ -5,7 +5,7 @@
 
 @font-face {
   font-family: lemon;
-  src: url(imagens/lemon_milk/LEMONMILK-Regular.otf);
+  src: url(imagens/Lemon/Lemon-Regular.ttf)
 }
 
 body{
@@ -92,6 +92,15 @@ body.fotos #navegacao a#fotos
   margin: 0 0 20px 195px;
 }
 
+#duas-colunas #primario{
+  width: 675px;
+}
+
+#uma-coluna #primario{
+  width: 870px;
+}
+
+
 #secundario{
   width: 330px;
   float: left;
@@ -102,9 +111,7 @@ body.fotos #navegacao a#fotos
 #lateral{
   width: 180px;
   float: left;
-  background: pink;
   margin: 0 0 20px -870px;
-
 }
 
 /*rodape*/
@@ -117,4 +124,24 @@ body.fotos #navegacao a#fotos
   width: 870px;
   margin: 0 auto;
   color: white;
+}
+
+/*layout padrão conteudo*/
+.caixa{
+  margin: 10px 0;
+  background: #f3f3f3 url(imagens/fundo-caixa.png);
+  padding: 5px;
+}
+
+h2{
+  font-size: 1em;
+  background: #294c71;
+  color: #fff;
+  padding: 5px;
+}
+
+.caixa-conteudo{
+  background: #fff;
+  padding: 5px;
+  margin-top: 5px;
 }

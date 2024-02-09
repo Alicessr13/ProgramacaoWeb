@@ -1,6 +1,6 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 @font-face {
@@ -8,25 +8,25 @@
   src: url(imagens/Lemon/Lemon-Regular.ttf)
 }
 
-body{
+body {
   font-family: lemon;
   background: #fff url(imagens/fundo.png) repeat-x;
 }
 
 /*topo*/
-#container{
+#container {
   width: 870px;
   margin: 0 auto;
 }
 
-#topo{
+#topo {
   height: 150px;
   /*border: 1px solid red;*/
   background: url(imagens/detalhe-topo.png)no-repeat right top;
   padding-top: 25px;
 }
 
-.logo{
+.logo {
   width: 152px;
   height: 66px;
   background: url(imagens/logo.png) no-repeat center;
@@ -34,23 +34,23 @@ body{
 }
 
 /*barra de navegação*/
-ul{
+ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-#topo ul{
+#topo ul {
   background: #b10333;
   margin-top: 30px;
   float: left;
 }
 
-#topo ul li{
+#topo ul li {
   float: left;
 }
 
-#topo ul a{
+#topo ul a {
   font-size: 0.9em;
   display: block;
   padding: 0.5em 1.5em;
@@ -60,19 +60,18 @@ ul{
   background: url(imagens/divisor.png) no-repeat left center;
 }
 
-#topo ul .primeiro a{
+#topo ul .primeiro a {
   background: none;
 }
 
-#topo ul a:hover{
+#topo ul a:hover {
   color: #69001d
 }
 
 body.home #navegacao a#home,
 body.brasil #navegacao a#brasil,
 body.internacional #navegacao a#internacional,
-body.fotos #navegacao a#fotos
-{
+body.fotos #navegacao a#fotos {
   color: #fff;
   background: #de003e;
   cursor: text;
@@ -80,68 +79,105 @@ body.fotos #navegacao a#fotos
 
 
 /*layout colunas*/
-#conteudo{
+#conteudo {
   background: #f5f5f5;
   margin-top: 60px;
 }
 
-#primario{
+#primario {
   width: 330px;
   float: left;
-  background: blue;
+
   margin: 0 0 20px 195px;
 }
 
-#duas-colunas #primario{
+#duas-colunas #primario {
   width: 675px;
 }
 
-#uma-coluna #primario{
+#uma-coluna #primario {
   width: 870px;
 }
 
 
-#secundario{
+#secundario {
   width: 330px;
   float: left;
-  background: green;
-  margin: 0 0 20px 15px ;
+
+  margin: 0 0 20px 15px;
 }
 
-#lateral{
+#lateral {
   width: 180px;
   float: left;
   margin: 0 0 20px -870px;
 }
 
 /*rodape*/
-#container-rodape{
+#container-rodape {
   background: #294c71;
   padding: 20px;
 }
 
-#rodape{
+#rodape {
   width: 870px;
   margin: 0 auto;
   color: white;
 }
 
 /*layout padrão conteudo*/
-.caixa{
+.caixa {
   margin: 10px 0;
   background: #f3f3f3 url(imagens/fundo-caixa.png);
   padding: 5px;
 }
 
-h2{
+h2 {
   font-size: 1em;
   background: #294c71;
   color: #fff;
   padding: 5px;
 }
 
-.caixa-conteudo{
+.caixa-conteudo {
   background: #fff;
   padding: 5px;
   margin-top: 5px;
+}
+
+/*lateral*/
+#lateral ul a {
+  font-size: 0.9em;
+  padding: 3px;
+  display: block;
+  line-height: 30px;
+  color: #000;
+  text-decoration: none;
+  border-bottom: 1px solid #f3f3f3;
+}
+
+#lateral ul a:hover {
+  color: #a1a1a1;
+  background: #f9f9f9 url(imagens/marcador.png) no-repeat left;
+  padding-left: 20px;
+}
+
+label {
+  display: block;
+  cursor: pointer;
+}
+
+input {
+  padding: 5px;
+  font-size: 0.9em;
+  background-color: #fff;
+  width: 125px;
+  margin-top: 5px;
+}
+
+input.submit {
+  width: 80px;
+  color: #fff;
+  background-color: #b10333;
+  border: 2px solid #870529;
 }

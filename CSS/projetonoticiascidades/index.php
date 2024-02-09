@@ -31,7 +31,14 @@
             </div> <!--fim conteudo primario-->
 
             <div id="secundario"> <!--conteudo secundario-->
-                secundario
+                <div class="caixa">
+                    <h2>Entrevistas</h2>
+
+                    <div class="caixa-conteudo">
+                        Conteudo
+                    </div>
+
+                </div>
             </div><!--fim conteudo secundario-->
 
             <div id="lateral"> <!--lateral-->
@@ -40,7 +47,31 @@
                     <h2>Entrevistas</h2>
 
                     <div class="caixa-conteudo">
-                        Conteudo
+                        <ul>
+                            <li> <a href="">José Almeida</a> </li>
+                            <li> <a href="">Felipe Silva</a> </li>
+                            <li> <a href="">Renato Rodrigues</a> </li>
+                            <li> <a href="">Abelardo Silveira</a> </li>
+                            <li> <a href="">André Carlos</a> </li>
+                            <li> <a href="">Márcio Mello</a> </li>
+                            <li> <a href="">João Pedro</a> </li>
+                            <li> <a href="">Fernando Weiss</a> </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div class="caixa">
+                    <h2>News</h2>
+
+                    <div class="caixa-conteudo">
+                        <form action="">
+                            <div>
+                                <label for="email">Email:</label>
+                                <input type="text" name="email" id="email" placeholder="E-mail">
+                            </div>
+                            <input type="submit" valeu="cadastrar" class="submit">
+                        </form>
                     </div>
 
                 </div>

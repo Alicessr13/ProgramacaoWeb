@@ -20,10 +20,13 @@
             <div id="primario"> <!--conteudo primario-->
 
                 <div class="caixa">
-                    <h2>Entrevistas</h2>
+                    <h2>Destaque</h2>
 
-                    <div class="caixa-conteudo">
-                        Conteudo
+                    <div class="caixa-conteudo destaque">
+                        <h3 class="destaque">Nova Legislação</h3>
+                        <img src="imagens/taxi.jpg" alt="" width="100%" class="imagem-principal">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <a href="">Leia Mais</a>
                     </div>
 
                 </div>

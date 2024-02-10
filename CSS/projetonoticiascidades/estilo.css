@@ -87,7 +87,6 @@ body.fotos #navegacao a#fotos {
 #primario {
   width: 330px;
   float: left;
-
   margin: 0 0 20px 195px;
 }
 
@@ -180,4 +179,26 @@ input.submit {
   color: #fff;
   background-color: #b10333;
   border: 2px solid #870529;
+}
+
+/*conteudo*/
+
+img{
+  border: 2px solid #dfdfdf;
+}
+
+img.imagem-principal{
+  width: 98%;
+  border: 3px solid #dfdfdf;
+}
+
+h3{
+  text-transform: uppercase;
+  display: inline;
+  font-size: 1em;
+  padding: 3px;
+}
+
+.destaque h3{
+
 }

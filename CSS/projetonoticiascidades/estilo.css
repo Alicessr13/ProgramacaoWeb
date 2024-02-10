@@ -200,5 +200,11 @@ h3{
 }
 
 .destaque h3{
+  background: #b10333;
+  color: #fff;
+}
 
+.entrevista h3{
+  background: #de003e;
+  color: black;
 }

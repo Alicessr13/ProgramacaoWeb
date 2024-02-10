@@ -35,10 +35,13 @@
 
             <div id="secundario"> <!--conteudo secundario-->
                 <div class="caixa">
-                    <h2>Entrevistas</h2>
+                    <h2>Última entrevista</h2>
 
-                    <div class="caixa-conteudo">
-                        Conteudo
+                    <div class="caixa-conteudo entrevista">
+                        <h3 class="destaque">Entrevista com Felipe Silva</h3>
+                        <img src="imagens/doutor.jpg" alt="" width="100%" class="imagem-principal">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <a href="">Leia Mais</a>
                     </div>
 
                 </div>

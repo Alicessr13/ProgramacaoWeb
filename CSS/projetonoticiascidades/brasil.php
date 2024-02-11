@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="estilo.css">
 </head>
 
-<body class="home">
+<body class="brasil" id="duas-colunas">
 
     <div id="container"> <!--Inicio container-->
 
@@ -26,7 +26,7 @@
                         <h3 class="destaque">Nova Legislação</h3>
                         <img src="imagens/taxi.jpg" alt="" width="100%" class="imagem-principal">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <a href="nova-legislacao.php">Leia Mais</a>
+                        <a href="">Leia Mais</a>
                     </div>
 
                 </div>
@@ -77,64 +77,6 @@
 
             </div> <!--fim conteudo primario-->
 
-            <div id="secundario"> <!--conteudo secundario-->
-                <div class="caixa">
-                    <h2>Última entrevista</h2>
-
-                    <div class="caixa-conteudo entrevista">
-                        <h3 class="destaque">Entrevista com Felipe Silva</h3>
-                        <img src="imagens/doutor.jpg" alt="" width="100%" class="imagem-principal">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <a href="">Leia Mais</a>
-                    </div>
-
-                </div>
-
-                <div class="caixa">
-                    <h2>Mundo</h2>
-
-                    <div class="caixa-conteudo">
-
-                        <ul id="lista-noticias">
-                            <li>
-                                <a href="">
-                                    <img src="imagens/cidade.jpg" alt="" width="80">
-                                    <h3>Novas tecnologias</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur...</p>
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="">
-                                    <img src="imagens/taxi.jpg" alt="" width="80">
-                                    <h3>Novas tecnologias</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur...</p>
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="">
-                                    <img src="imagens/tecnologia.jpg" alt="" width="80">
-                                    <h3>Novas tecnologias</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur...</p>
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="">
-                                    <img src="imagens/doutor.jpg" alt="" width="80">
-                                    <h3>Novas tecnologias</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur...</p>
-                                </a>
-                            </li>
-
-                        </ul>
-
-                    </div>
-
-                </div>
-
-            </div><!--fim conteudo secundario-->
 
             <div id="lateral"> <!--lateral-->
 

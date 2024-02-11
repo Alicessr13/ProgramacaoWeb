@@ -33,6 +33,14 @@ body {
   text-indent: -3000px;
 }
 
+a:link, a:visited{
+  color: #b10333;
+  padding: 2px;
+}
+a:hover{
+  color: #e50040;
+}
+
 /*barra de navegação*/
 ul {
   margin: 0;
@@ -96,6 +104,7 @@ body.fotos #navegacao a#fotos {
 
 #uma-coluna #primario {
   width: 870px;
+  margin: 0 auto;
 }
 
 
@@ -143,6 +152,7 @@ h2 {
   padding: 5px;
   margin-top: 5px;
 }
+
 
 /*lateral*/
 #lateral ul a {
@@ -207,4 +217,36 @@ h3{
 .entrevista h3{
   background: #de003e;
   color: black;
+}
+
+/*conteudo lista*/
+
+#lista-noticias li{
+  padding: 2px;
+  border-bottom: 1px solid #ccc;
+  height: 65px;
+}
+
+#lista-noticias li a img{
+  float: left;
+  margin: 5px;
+}
+
+#lista-noticias li a{
+  text-decoration: none;
+}
+
+#lista-noticias li a h3{
+  font-size: 0.9em;
+  padding: 0;
+  color: #3e7ab9;
+}
+
+#lista-noticias li a p{
+  font-size: 0.8em;
+  color: #000;
+}
+
+#lista-noticias li:hover{
+  background: #eee;
 }

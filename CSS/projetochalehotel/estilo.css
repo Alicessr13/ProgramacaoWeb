@@ -1,0 +1,34 @@
+#container{
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid red;
+    min-width: 1000px;
+    max-width: 1500px;
+}
+
+#topo{
+    background: url(imagens/topo.jpg) no-repeat;
+    background-size: 1000px 100%;
+    height: 360px;
+}
+
+#topolateral{
+    background: url(imagens/topo-imagem-lateral2.png) no-repeat right;
+    background-size: 600px 360px;
+    height: 360px;
+}
+
+#conteudo-topo-lateral{
+    width: 500px;
+    height: 360px;
+    border: 1px solid red;
+    float: right;
+}
+
+.local{
+    color: #af2da4;
+    margin: 20px 10px;
+    border-top: 1px #af2da4 solid;
+    border-bottom: 1px #af2da4 solid;
+
+}

@@ -32,7 +32,7 @@ a{
 }
 
 #topolateral{
-    background: url(imagens/topo-imagem-lateral2.png) no-repeat right;
+    background: url(imagens/download.png) no-repeat right;
     background-size: 600px 360px;
     height: 360px;
 }
@@ -41,25 +41,50 @@ a{
     width: 500px;
     height: 360px;
     float: right;
+    overflow: hidden;
 }
 
 
 #local{
-    color: #af2da4;
-    margin: 20px 10px;
-    border-top: 1px #af2da4 solid;
-    border-bottom: 1px #af2da4 solid;
+    color: #DA2C43 ;
+    margin: 20px 0px;
+    border-top: 1px #DA2C43  solid;
+    border-bottom: 1px #DA2C43  solid;
     font-size: 0.8em;
     padding: 10px 0 10px 0;
-    width: 450px;
+    width: 480px;
 }
 
 .local2{
-    margin-right: 43px;
+    margin-right: 73px;
 }
 
 .reservar{
     color: white;
-    background-color: #af2da4;
+    background-color: #DA2C43;
     padding: 5px;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#lateral{
+    float: left;
+}
+
+#lateral li{
+    margin-bottom: 20px;
+}
+
+#lateral a{
+    color: #E52B50;
+}
+
+.imagem{
+    float: right;
+    padding-right: 20px;
+    margin-top: -50px;
 }

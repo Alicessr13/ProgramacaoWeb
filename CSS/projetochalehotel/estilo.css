@@ -9,8 +9,9 @@
 }
 
 body{
-    margin: 0;
+    margin: 10px;
     padding: 0;
+    background: #FFD1DC;
 }
 
 a{
@@ -25,7 +26,7 @@ a{
 }
 
 #topo{
-    background: url(imagens/topo.jpg) no-repeat;
+    background: url(imagens/topo2.jpg) no-repeat;
     background-size: 1000px 100%;
     height: 360px;
     font-family: kaoly;
@@ -46,10 +47,10 @@ a{
 
 
 #local{
-    color: #DA2C43 ;
+    color: #905D5D ;
     margin: 20px 0px;
-    border-top: 1px #DA2C43  solid;
-    border-bottom: 1px #DA2C43  solid;
+    border-top: 1px #905D5D  solid;
+    border-bottom: 1px #905D5D  solid;
     font-size: 0.8em;
     padding: 10px 0 10px 0;
     width: 480px;
@@ -61,7 +62,7 @@ a{
 
 .reservar{
     color: white;
-    background-color: #DA2C43;
+    background-color: #905D5D;
     padding: 5px;
 }
 
@@ -80,7 +81,7 @@ ul{
 }
 
 #lateral a{
-    color: #E52B50;
+    color: #905D5D;
 }
 
 .imagem{
@@ -88,3 +89,36 @@ ul{
     padding-right: 20px;
     margin-top: -50px;
 }
+
+#conteudo1{
+    float: left;
+    background: #FFB7C5;
+    width: 49.5%;
+    margin-top: 10px;
+    height: 400px;
+}
+
+#conteudo2{
+    float: right;
+    width: 49.5%;
+    margin-top: 10px;
+    background: #FFA6C9;
+    height: 400px;
+}
+
+#conteudo2 li a img{
+    float: left;
+    margin: 0px;
+    padding: 10px;
+  }
+
+#conteudo2 li{
+    padding: 10px;
+    height: auto;
+    border-bottom:#DA2C43 1px solid;
+}
+
+#conteudo2 li:last-child {
+    border-bottom: none; 
+}
+
